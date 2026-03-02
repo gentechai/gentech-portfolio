@@ -49,7 +49,7 @@ export function useScrollRevealEarly() {
       },
       {
         threshold: 0.05,          
-        rootMargin: "0px 0px 90px 0px"  
+        rootMargin: "0px 0px 85px 0px"  
       }
     )
 
