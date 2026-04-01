@@ -2,14 +2,14 @@ import { useState, useEffect } from "react"
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import About from "./components/About"
-import Skills from "./components/Skills"
-import Projects from "./components/Projects"
-import Team from "./components/Team"
 import Footer from "./components/Footer"
 import ThemeButton from "./components/ThemeButton"
 import ProjectDetail from "./pages/ProjectDetail"
 import Contact from "./pages/Contact"
 import Career from "./pages/Career"
+import Skills from "./pages/Skills"
+import Projects from "./pages/Projects"
+import Team from "./pages/Team"
 
 function App() {
   const [route, setRoute] = useState(window.location.hash || "")
@@ -60,15 +60,42 @@ function App() {
     )
   }
 
+  // skills page route
+  if (route === "#skills") {
+    return (
+      <>
+        <ThemeButton />
+        <Skills />
+      </>
+    )
+  }
+
+  // projects page route
+  if (route === "#projects") {
+    return (
+      <>
+        <ThemeButton />
+        <Projects />
+      </>
+    )
+  }
+
+  // team page route
+  if (route === "#team") {
+    return (
+      <>
+        <ThemeButton />
+        <Team />
+      </>
+    )
+  }
+
   return (
     <>
       <ThemeButton />
       <Navbar />
       <Hero />
       <About />
-      <Skills />
-      <Projects />
-      <Team />
       <Footer />
     </>
   )

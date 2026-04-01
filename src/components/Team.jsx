@@ -63,13 +63,13 @@ function Team() {
             {/* <p className="email"><a href="mailto:shashikantpal@gentech.in">shashikantpal@gentech.in</a></p> */}
           </div>
 
-          <div className={`team-card reveal delay-3 ${visible ? "active" : ""}`}>
+          {/* <div className={`team-card reveal delay-3 ${visible ? "active" : ""}`}>
             <img src="/harsh_jatav.png" alt="Harsh Jatav" className="team-photo" />
             <h3>Harsh Jatav</h3>
             <p className="role">Full-Stack ML & Backend Developer</p>
             <p className="description">Proficient in building end-to-end machine learning systems with strong backend expertise in FastAPI, Django, and database optimization. Experienced in MLOps, model deployment, and creating scalable data pipelines for production environments.</p>
-            {/* <p className="email"><a href="mailto:harshjatav@gentech.in">harshjatav@gentech.in</a></p> */}
-          </div>
+            <p className="email"><a href="mailto:harshjatav@gentech.in">harshjatav@gentech.in</a></p>
+          </div> */}
         </div>
       </div>
     </section>
