@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 /* ===== PAGE HEADER STYLING ===== */
 .page-header {
   text-align: center;
