@@ -39,7 +39,7 @@ function TeamPage() {
     },
     {
       name: "Sohail Pathan",
-      role: "Sr. Project Manager and AI/ML Expertise",
+      role: "Sr. Project Manager & AI/ML Expertise",
       image: "/sohail.jpeg",
       bio: "Manages end-to-end execution of AI/ML and software projects, coordinating teams, timelines, and resources to ensure successful delivery. Drives agile processes, stakeholder communication, and quality assurance for scalable, intelligent solutions.",
       specialties: ["Project Management", "Agile Methodology", "Team Coordination", "AI/ML"],
